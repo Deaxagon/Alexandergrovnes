@@ -211,87 +211,44 @@ function textEditor(e) {
      if (interval > maxValue){
        interval = maxValue;
      }
- //  THIS CALIBRATION IS FOR PERSONAL EXPRESSION( CONTROL) 
-     //let wght = interval/4; //lek med tjocklek
-     //let wdth = interval/3;
-     let wght = 20; //lek med tjocklek
-     let wdth = 30;
+
+
+     if(currentLetter&&interval>500){
+    
+    }
+   if (interval>300){
+     const lastSpan=text.lastChild;
+     // lastSpan.classList.remove('animated', 'fadeIn');
+     lastSpan.classList.add('animated', 'bounceIn');
+   
+   }
+
+   if(interval<=300){
+     const lastSpan=text.lastChild;
+     //lastSpan.classList.add('animated', 'fadeIn');
+    
+     lastSpan.classList.add('animated', 'bounceIn');
+   }
+    var maxValue = 1500;
+
+    if (interval > maxValue){
+      interval = maxValue;
+    } 
+
+    let wght = 6*interval; //lek med tjocklek
+    let wdth = interval;
+    let fontSize = (interval/60 + 30); // 40 Old way of setting font size
+
+    currentLetter.style.fontVariationSettings = '\'wdth\'' + parseInt(wdth) + ', ' + '\'wght\' '+parseInt(wght);
+     currentLetter.style.fontSize = parseInt(fontSize)+'px';
      
-     //let fontSize = (interval/20 + 40); // 40 Old way of setting font size
-     let fontSize;
-
-    // console.log(fontSize);
-     //lets us change the style of the font for a span depending ont the interval between spans
-   
-     //currentLetter.style.fontVariationSettings ='\'wdth\'' + parseInt(wdth) + ', ' + '\'wght\' '+parseInt(wght);
-    
-   // currentLetter.style.fontSize = parseInt(fontSize)+'px';
-    
- // MAKE LETTER ANIMATE IN DIFFERENT WAYS BELOW
- 
-   if (interval>600){ //700 before
-  const lastSpan=text.lastChild;
-   
-    //lastSpan.classList.add("scaleDown");
-   // lastSpan.classList.remove("scale-down-center");
-  
-    wght = interval/4; //lek med tjocklek
-     wdth = interval/3;
-    currentLetter.style.fontVariationSettings ='\'wdth\'' + parseInt(wdth) + ', ' + '\'wght\' '+parseInt(wght);
-    fontSize=37;
-    currentLetter.style.fontSize = parseInt(fontSize)+'px';
-    //lastSpan.classList.add("italic");
-    lastSpan.classList.add('animated','lightSpeedIn', 'slower');
-   //lastSpan.classList.add('animated', 'bounceInDown');
-  //lastSpan.classList.add('animated', 'fadeOutUp', 'delay-2s');
-}
-  
-  
- if (interval>=400 && interval<=600){ //500-700 before
-  const lastSpan=text.lastChild;
-   
-    //lastSpan.classList.add("scaleDown");
-   // lastSpan.classList.remove("scale-down-center");
-  
-    wght = interval/4; //lek med tjocklek
-     wdth = interval/3;
-     currentLetter.style.fontVariationSettings ='\'wdth\'' + parseInt(wdth) + ', ' + '\'wght\' '+parseInt(wght);
-    fontSize=37;
-    currentLetter.style.fontSize = parseInt(fontSize)+'px';
-   //lastSpan.classList.add("italic");
-    lastSpan.classList.add('animated','lightSpeedIn', 'slow');
-   //lastSpan.classList.add('animated', 'bounceInDown');
-  //lastSpan.classList.add('animated', 'fadeOutUp', 'delay-2s');
-}
-
-
-if(interval>=100 && interval<=400){ // 100-500 before
-  const lastSpan=text.lastChild;
- // lastSpan.classList.add("italic");
- 
-  //lastSpan.classList.add("scale-down-center");
-  lastSpan.classList.add('animated','zoomInRight', 'fast');
-  //fontSize = (interval/10 + 10);
-  fontSize=37;
-  currentLetter.style.fontSize = parseInt(fontSize)+'px';
-currentLetter.style.fontVariationSettings ='\'wdth\'' + parseInt(wdth) + ', ' + '\'wght\' '+parseInt(wght);
-  //lastSpan.classList.add('animated', 'fadeIn');
-  //lastSpan.classList.add('animated', 'fadeOutUp', 'delay-2s');
-
-}
-
-if(interval<100){ // change 200 to higher and 500 to higher if you want to have faster speed 
-  const lastSpan=text.lastChild; // to look good.
-  //lastSpan.classList.remove("scale-down-center");
- 
- // lastSpan.classList.add("scaleDown");
-
-  currentLetter.style.fontVariationSettings ='\'wdth\'' + parseInt(wdth) + ', ' + '\'wght\' '+parseInt(wght);
-  //lastSpan.classList.add("italic");
-  lastSpan.classList.add('animated','zoomInRight', 'faster');
-  fontSize=34;
-  currentLetter.style.fontSize = parseInt(fontSize)+'px';
-} 
+   if(e.keyCode == 13){ // 13 enter, 8 backspace
+       removeLastSpan();
+       document.getElementById("fakeBackspace").click();
+       console.log("total letters before backspace "+(spanCount-1));
+     //  spanCount=0;
+     keySound=false;
+   }
     
     if(e.keyCode == 8){ // 13 enter, 8 backspace
         removeLastSpan();
