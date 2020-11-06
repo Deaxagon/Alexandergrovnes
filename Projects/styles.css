@@ -739,9 +739,19 @@ height:570px;
     max-width: 450px; /* 960px; */
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1400px) {
   iframe {
-    max-width: 560px/*1140px; */
+    max-width: 480px/*524px */
+  }
+}
+@media (min-width: 1600px) {
+  iframe {
+    max-width: 510px/*1140px; */
+  }
+}
+@media (min-width: 1900px) {
+  iframe {
+    max-width: 510px/*1140px; */
   }
 }
 
@@ -10789,7 +10799,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-family:  "Montserrat", Roboto, sans-serif;
   color: #000000;
   font-size: 16px;
-  
+  font-weight: 700;
   font-variation-settings: 'wght' 700, 'wdth' 700;
 }
 .spanData{
