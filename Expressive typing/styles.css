@@ -11160,8 +11160,8 @@ margin-right: 0rem;
 }
 @media (min-width: 2100px) {
   .grid2x2 {
-   margin-left: 21rem; 
-  margin-right: 21rem;
+   margin-left: 40rem; 
+  margin-right: 40rem;
 }
 } 
 
@@ -11208,7 +11208,7 @@ margin-right: 0rem;
     margin-right: 2rem;
 }
 }
-@media (min-width: 1800px) {
+@media (min-width: 2100px) {
   .text-block-grid {
     margin-left: 2rem;
     margin-right: 2rem;
