@@ -11113,6 +11113,7 @@ margin-right: 0rem;
   .img-fluidAlt{
   left: 5.5rem;
 }
+}
 
 @media (min-width: 2100px) {
   .img-fluidAlt{
@@ -11495,5 +11496,4 @@ animation-delay: var(--delay);  */
 .zoomInRight {
   -webkit-animation-name: zoomInRight;
   animation-name: zoomInRight;
-}
 }
