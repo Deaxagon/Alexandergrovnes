@@ -10833,6 +10833,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   margin: 10px;
   margin-left: 5rem;
     margin-right: 5rem; 
+    background-color: black;
 }
 
 .grid-item-container{
@@ -11140,5 +11141,6 @@ animation-delay: var(--delay);  */
 .zoomInRight {
   -webkit-animation-name: zoomInRight;
   animation-name: zoomInRight;
+}
 }
 }
