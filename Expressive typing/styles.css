@@ -11110,10 +11110,14 @@ margin-right: 0rem;
 
 @media (min-width: 1600px) {
   .img-fluidAlt{
-  left: 8.5rem;
+  left: 5.5rem;
 }
 
-
+@media (min-width: 2100px) {
+  .img-fluidAlt{
+  left: 8.5rem;
+}
+}
 
 @media (min-width: 375px) {
   .grid2x2 {
