@@ -739,9 +739,14 @@ height:570px;
     max-width: 450px; /* 960px; */
   }
 }
+@media (min-width: 1200px) {
+  iframe {
+     max-width: 450px; /* 960px; */
+   }
+ }
 @media (min-width: 1400px) {
   iframe {
-    max-width: 480px/*524px */
+    max-width: 530px/*524px */
   }
 }
 @media (min-width: 1600px) {
