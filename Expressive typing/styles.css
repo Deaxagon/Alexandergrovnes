@@ -10999,6 +10999,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   font-family: "Montserrat", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     font-size: 1rem;
     font-variation-settings: 'wght' 800, 'wdth' 800;
+    font-weight: 800;
     line-height: 1.5;
   color:rgb(29, 29, 29);
     text-align: justify;
