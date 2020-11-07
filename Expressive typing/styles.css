@@ -11260,8 +11260,8 @@ animation-delay: var(--delay);  */
   }
 .contakt-links{ /* I don't think it does anything*/
     width: 100%;
-    padding-right: 1.75rem;
-    padding-left: 1.75rem;
+    padding-right: 3.75rem;
+    padding-left: 5.75rem;
    
 }
   .stroke-letters:hover{
@@ -11318,13 +11318,7 @@ animation-delay: var(--delay);  */
 
 }
 
-@media (min-width: 992px) {
 
-}
-
-@media (min-width: 1200px) {
-
-}
 
 /* new links and headings in project section*/
 .proHeaders{
