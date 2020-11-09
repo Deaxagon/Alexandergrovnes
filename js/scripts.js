@@ -257,9 +257,9 @@ function textEditor(e) {
        spanCount=spanCount-1;
     }
   
-   if(e.keyCode == 13){ // 13 enter, 8 backspace
+   if(e.keyCode == 13||e.keyCode==20){ // 13 enter, 8 backspace
         currentLetter.appendChild( document.createTextNode( '\u00A0' ) );
-     removeLastSpan();
+     //removeLastSpan();
     }
 
     if(e.keyCode == 16){ // 13 enter, 8 backspace, 16 shift
