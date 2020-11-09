@@ -11210,14 +11210,14 @@ margin-right: 0rem;
 }
 @media (min-width: 1600px) {
   .text-block-grid {
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 }
 @media (min-width: 2100px) {
   .text-block-grid {
-    margin-left: 2rem;
-    margin-right: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 }
 
