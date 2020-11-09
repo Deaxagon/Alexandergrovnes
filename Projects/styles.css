@@ -551,6 +551,7 @@ img{
     .row3{
     padding-right: 9rem; /*9 before*/
     padding-left: 9rem;
+    }
   }
   @media (min-width: 1600px) {
     .row3{
@@ -11134,4 +11135,4 @@ animation-delay: var(--delay);  */
   -webkit-animation-name: zoomInRight;
   animation-name: zoomInRight;
 }
-  }
+  
