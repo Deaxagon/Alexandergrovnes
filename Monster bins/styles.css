@@ -739,6 +739,7 @@ height:570px;
  iframe {
     max-width: 450px; /* 960px; */
   }
+}
   @media (min-width: 1400px) {
     iframe {
       max-width: 480px/*524px */
@@ -10808,6 +10809,7 @@ section#contact form#contactForm :-ms-input-placeholder {
     color: #000000;
     font-size: 14px;
     display: contents;
+    font-weight: 400;
 }
  .span2{
     color:rgb(0, 0, 0);
@@ -11143,4 +11145,4 @@ animation-delay: var(--delay);  */
   -webkit-animation-name: zoomInRight;
   animation-name: zoomInRight;
 }
-}
+
