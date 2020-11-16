@@ -10708,8 +10708,8 @@ animation-delay: var(--delay);  */
     padding-left: 5.75rem;
 }
   .stroke-letters:hover{
-    -webkit-text-stroke: 1.8px  black; /*1.8px)*/
-    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 1.8px  white; /*1.8px)*/
+    -webkit-text-fill-color: black;
   }
 
   .h2Alt{
