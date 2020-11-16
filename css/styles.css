@@ -10616,18 +10616,18 @@ animation-delay: var(--delay);  */
   
   /*-webkit-text-stroke: 1.8px rgb(252, 160, 40);
   color: black; */
-  
+
     .stroke-letters:hover{
-      -webkit-text-stroke: 1.8px  rgb(252, 160, 40);
+      -webkit-text-stroke: 2px  rgb(252, 160, 40); /*1.8px)*/
       -webkit-text-fill-color: black;
+      
     }
-  
   
 
   .h1Alt{
     /*font-size: 2rem; */
    font-weight: 700;
-    font-family : "Roboto-Slab", "Montserrat",sans-serif, "Roboto-Slab",-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-family :  "Montserrat","Roboto-Slab",sans-serif, "Roboto-Slab",-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   }
 
   /*color change for navigation "ABOUT AND ILLUSTRATIONS*/

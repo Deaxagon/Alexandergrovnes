@@ -10815,6 +10815,7 @@ section#contact form#contactForm :-ms-input-placeholder {
     font-size: 14px;
     display: contents;
     font-weight: 400;
+    font-variation-settings: 'wght' 400, 'wdth' 400;
 }
  .span2{
     color:rgb(0, 0, 0);

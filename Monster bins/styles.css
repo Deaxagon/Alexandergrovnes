@@ -10809,8 +10809,8 @@ section#contact form#contactForm :-ms-input-placeholder {
     color: #000000;
     font-size: 14px;
     display: contents;
-    font-weight: 500;
-    font-variation-settings: 'wght' 500, 'wdth' 500;
+    font-weight: 400;
+    font-variation-settings: 'wght' 400, 'wdth' 400;
 }
  .span2{
     color:rgb(0, 0, 0);
