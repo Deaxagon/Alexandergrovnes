@@ -10891,7 +10891,7 @@ span {
   font-family: 'FunkisMAUDemoGX';
   font-size: 2em;
   text-rendering: geometricPrecision;
-  font-variation-settings: 'wght' 100, 'wdth' 100; 
+  /*font-variation-settings: 'wght' 100, 'wdth' 100; 
  color: #ffffff;/*#ffff94; 
   text-shadow: 0 0; /* a hack needed to improve rendering */
  /* transition: all 0.2s; need to make this visible again */ 
