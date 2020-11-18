@@ -138,12 +138,13 @@ document.getElementById("link4").onmouseover= function(){
 
 
 }
+
+
 //----------------------------------------------------------------------------------------------------------
 //----------------------------------------------------------------------------------------------------------
 //----------------------------------------------------------------------------------------------------------
 //----------------------------------------------------------------------------------------------------------
 //----------------------------------------------------------------------------------------------------------
-//--
 
 document.addEventListener('keydown', textEditor);
 const text = document.getElementById("angerText");
@@ -196,9 +197,16 @@ function textEditor(e) {
    
     console.log(spanCount+"spanCount");
     // makes blinking cursor appear again when there is no spans**doesn't work
-    if(spanCount==2){
+    if(spanCount==5){
      // document.getElementsByClassName('blinking-cursor').style.fontSize=30;
+    var hint =document.getElementById("Hint");
+     document.getElementById("Hint").innerHTML = "Try typing at different speeds and watch how the text changes";
+     
+     document.getElementById("Hint").classList.add("visibleHint");
     }
+
+  
+
 
     console.log(currentLetter.textContent); // writes out the letter order
     if (time)
