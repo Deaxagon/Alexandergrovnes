@@ -10696,7 +10696,8 @@ animation-delay: var(--delay);  */
       color:white;/*rgb(252, 160, 40); */
       font-weight: 700;
       font-family :  "Montserrat","Roboto-Slab",sans-serif, "Roboto-Slab",-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-   }
+   
+    }
   .h1Alt{
       color:white;
       font-size: 4rem;
