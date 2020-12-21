@@ -164,12 +164,12 @@ sup {
 }
 
 a {
-  color: rgb(252, 160, 40);
+  color:rgb(226, 226, 226);/*rgb(252, 160, 40);*/
   text-decoration: none;
   background-color: transparent;
 }
 a:hover {
-  color: rgb(252, 160, 40); 
+ /* color: rgb(252, 160, 40); */
   
 }
 
@@ -1194,7 +1194,7 @@ height:570px;
 }
 @media (min-width: 1200px){
   .col-md-4 {
-    margin-top:2.6em;
+    margin-top:1.85em;
   }
  }
 
@@ -3126,6 +3126,51 @@ input[type=button].btn-block {
   right: 0;
   left: auto;
 }
+
+
+
+
+.underline--magical {
+  background-image: linear-gradient(120deg,rgb(252, 160, 40) 0%, rgb(252, 160, 40) 100%);
+  background-repeat: no-repeat;
+  background-size: 80% 0.2em;
+  background-position: 0 88%;
+  transition: background-size 0.25s ease-in;
+}
+.underline--magical:hover {
+  background-size: 100% 88%;
+}
+
+
+.bb:hover + .Spotify {
+  display: block;
+}
+
+.visible{
+  visibility: visible;
+}
+
+.Spotify{
+  position: relative;
+    width: 100%;
+    margin-top: 0rem;
+    padding-left: 35.50rem;
+   visibility: hidden;
+}
+@media (min-width: 992px) {
+  .Spotify{
+    margin-top: 0.35rem;
+    padding-left: 30rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .Spotify{
+    margin-top: 0.35rem;
+    padding-left: 35.50rem;
+  }
+}
+
 
 @media (min-width: 576px) {
   .dropdown-menu-sm-left {
