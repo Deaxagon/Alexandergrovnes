@@ -118,7 +118,7 @@ document.getElementById("link3").onmouseover= function(){
   background.style.background="black";
  // keepText.style.color="#ffffff";
 }
-//Google keep
+//Innovation skåne
 var keep=document.getElementById("img4");
 var keepText=document.getElementById("link4");
 
@@ -132,8 +132,8 @@ document.getElementById("link4").onmouseover= function(){
   typo.classList.remove("fade-in");
   monst.classList.remove("fade-in");
   keep.classList.add("fade-in");
-  
-  background.style.background="#F8C331";
+  background.style.background="#167480";
+  //background.style.background="#F8C331"; yellow color from UI redesigns 
  // keepText.style.color="#000000";
 
 
