@@ -1930,9 +1930,18 @@ height:570px;
   margin-bottom: 1rem;
   color: #212529;
 }
+.extraPadding{
+  padding-left: 3.2em;
+}
+.extraPadding2{
+  padding-left: 4.1em;
+}
+.extraPadding3{
+  padding-right: 1px;
+}
 .table th,
 .table td {
-  padding: 0.75rem;
+  padding: 4em;
   vertical-align: top;
   border-top: 1px solid #dee2e6;
 }
