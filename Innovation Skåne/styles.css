@@ -577,7 +577,8 @@ img{
  margin-right:auto;
  width:100%; /*70%*/
  position: relative;
- 
+ padding-top: 1em;
+ padding-bottom: 1em;
 }
 
 
