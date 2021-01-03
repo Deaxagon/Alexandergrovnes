@@ -677,6 +677,57 @@ pre code {
   margin-right: auto;
   margin-left: auto;
 }
+.container1{
+  margin-left: 5em;
+  margin-right: 5em;
+}
+
+
+@media (min-width: 576px) {
+  .container1 {
+   /* max-width: 252px;/*540px; */
+   margin-left: 0em;
+   margin-right: 0em;
+  }
+}
+@media (min-width: 768px) {
+  .container1 {
+  /*  max-width: 440px;/*720px;*/
+  margin-left: 2em;
+   margin-right: 0em;
+  }
+}
+@media (min-width: 992px) {
+  .container1 {
+   /* max-width: 450px; /* 960px; */
+   margin-left: 5em;
+   margin-right: 5em;
+  }
+}
+@media (min-width: 1200px) {
+  .container1 {
+   /* max-width: 600px/*1140px; */
+   max-width:1200px;
+   margin-left: 5em;
+   margin-right: 5em;
+  }
+}
+
+@media (min-width: 1600px) {
+  .container1 {
+   /* max-width: 600px/*1140px; */
+   max-width:1200px;
+   margin-left: auto;
+   margin-right: auto;
+  }
+}
+
+@media (min-width: 1600px) {
+  .PictureText {
+   /* max-width: 600px/*1140px; */
+   padding-top: 3em;
+  }
+}
 
 .addHeight{
 height:570px;
@@ -10208,7 +10259,7 @@ p {
   padding: 6rem 0;
 }
 .page-section h2.section-heading {
-  font-size: 2.5rem;
+  font-size: 1.6em;
   margin-top: 0;
   margin-bottom: 1rem;
   color:rgb(0, 0, 0);
@@ -10715,7 +10766,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 .project-data{
     width: 600px;
     margin-top:60px;
-    margin-bottom: 20px;
+    margin-bottom: 60px;
     padding-left: 0px;
 }
 .data-colum{
@@ -10775,6 +10826,177 @@ section#contact form#contactForm :-ms-input-placeholder {
   clear: both;
   word-break: break-word;
 }
+.BigPicture {
+  width: 66.66666667%;
+  float: left;
+  padding: 1px;
+padding-top: 2em;
+
+}
+
+@media (min-width: 576px) {
+  .BigPicture{
+   /* max-width: 252px;/*540px; */
+  width:100%;
+  padding-bottom: 2em;
+  }
+}
+@media (min-width: 768px) {
+  .BigPicture {
+  /*  max-width: 440px;/*720px;*/
+  width:100%;
+  padding-bottom: 2em;
+  }
+}
+@media (min-width: 992px) {
+  .BigPicture {
+   /* max-width: 450px; /* 960px; */
+   width: 100%;
+   padding-bottom: 2em;
+  }
+}
+
+@media (min-width: 1200px) {
+  .BigPicture {
+   /* max-width: 600px/*1140px; */
+   width: 66.66666667%;
+  }
+}
+
+@media (min-width: 1600px) {
+  .BigPicture{
+   /* max-width: 600px/*1140px; */
+   width: 66.66666667%;
+  }
+}
+
+.PictureText {
+  width: 33.33333333%;
+  float: left;
+  padding-left: 3em;
+ /* padding-top: 2em; */
+}
+
+@media (min-width: 576px) {
+  .PictureText{
+   /* max-width: 252px;/*540px; */
+  width:100%;
+  
+  }
+}
+@media (min-width: 768px) {
+  .PictureText{
+  /*  max-width: 440px;/*720px;*/
+  width:100%;
+  }
+}
+@media (min-width: 992px) {
+  .PictureText{
+   /* max-width: 450px; /* 960px; */
+   width: 100%;
+
+  }
+}
+@media (min-width: 1200px) {
+  .PictureText  {
+   /* max-width: 600px/*1140px; */
+   width: 33.33333333%;
+   padding-top: 2em;
+  }
+}
+
+@media (min-width: 1600px) {
+  .PictureText {
+   /* max-width: 600px/*1140px; */
+   width: 33.33333333%;
+   padding-top: 6em;
+  }
+}
+
+.HalfColumn{
+  width: 50%;
+  float: left;
+  padding:1.2em;
+  padding-top: 4em; 
+}
+
+
+@media (min-width: 576px) {
+  .HalfColumn{
+   /* max-width: 252px;/*540px; */
+  width:100%;
+  
+  }
+}
+@media (min-width: 768px) {
+  .HalfColumn{
+  /*  max-width: 440px;/*720px;*/
+  width:100%;
+  }
+}
+@media (min-width: 992px) {
+  .HalfColumn{
+   /* max-width: 450px; /* 960px; */
+   width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .HalfColumn {
+   /* max-width: 600px/*1140px; */
+   width:50%;
+  }
+}
+
+@media (min-width: 1600px) {
+  .HalfColumn {
+   /* max-width: 600px/*1140px; */
+   width: 50%;
+  }
+}
+
+
+.HalfColumn2{
+  width: 50%;
+  float: left;
+  padding:1.2em;
+  padding-top: 4em;
+}
+
+@media (min-width: 576px) {
+  .HalfColumn2{
+  /*  max-width: 440px;/*720px;*/
+  width:100%;
+  
+  }
+}
+@media (min-width: 768px) {
+  .HalfColumn2{
+  /*  max-width: 440px;/*720px;*/
+  width:100%;
+  }
+}
+@media (min-width: 992p) {
+  .HalfColumn2{
+  /*  max-width: 440px;/*720px;*/
+  width:100%;
+  }
+}
+@media (min-width: 1200px) {
+  .HalfColumn2{
+  /*  max-width: 440px;/*720px;*/
+  width:50%;
+  }
+}
+@media (min-width: 1600px) {
+  .HalfColumn2{
+  /*  max-width: 440px;/*720px;*/
+  width:50%;
+  }
+}
+
+
+
 .project-text-blockEnd{
   margin-left: auto;
   margin-right: auto;
@@ -10868,7 +11090,14 @@ padding-left:0.75rem;
 /*padding-left:0.75rem;*/
   position: relative;
     width: 100%;
-  
+}
+
+.grid-1picV2{
+  max-width: 100%;
+/*padding-left:0.75rem;*/
+  position: relative;
+    width: 100%;
+   
 }
 
 
