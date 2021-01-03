@@ -661,6 +661,7 @@ height:570px;
   flex-wrap: wrap;
   margin-right: -0.75rem;
   margin-left: -0.75rem;
+  justify-content: space-evenly;
 }
 
 .no-gutters {
