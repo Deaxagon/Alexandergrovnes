@@ -757,7 +757,7 @@ height:570px;
 }
 @media (min-width: 992px) {
   .container2 {
-    max-width:  900px; /* 960px; */
+    max-width: 900px; /* 960px; */
   }
 }
 @media (min-width: 1200px) {
@@ -10958,7 +10958,7 @@ padding-top: 2em;
   .PictureText{
    /* max-width: 450px; /* 960px; */
    width: 100%;
-   padding-left: 0em;
+
   }
 }
 @media (min-width: 1200px) {
