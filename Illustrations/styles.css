@@ -532,6 +532,7 @@ img{
  display:block;
  margin-left:auto;
  margin-right:auto;
+ padding:30px;
  width:70%;
 }
 
@@ -10174,7 +10175,7 @@ h1{
     color: rgb(255, 255, 255);
     /*text-align:center; */
     margin-top: 1rem;
-    margin-left: 10.5rem;
+    margin-left: 12.5rem
 }
 
 h3{
@@ -10725,7 +10726,7 @@ animation-delay: var(--delay);  */
   }
   
 .second-pic{
-  margin-left:11rem;
+  margin-left:13rem
 }
 
 .resize-img{
