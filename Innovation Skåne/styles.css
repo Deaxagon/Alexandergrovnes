@@ -10831,8 +10831,8 @@ section#contact form#contactForm :-ms-input-placeholder {
 .project-text-block{
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 1rem;
-  padding-top: 1rem;
+  padding-bottom: 0rem;
+  padding-top: 3rem;
   max-width: 100%;
   width: 100%;
   text-align: left;
@@ -11020,6 +11020,7 @@ padding-top: 2em;
   float: left;
   padding:1.2em;
   padding-top: 4em; 
+ /* padding-left: 4em;*/
 }
 
 
@@ -11047,6 +11048,7 @@ padding-top: 2em;
   .HalfColumn {
    /* max-width: 600px/*1140px; */
    width:50%;
+
   }
 }
 
@@ -11054,6 +11056,7 @@ padding-top: 2em;
   .HalfColumn {
    /* max-width: 600px/*1140px; */
    width: 50%;
+  
   }
 }
 
@@ -11063,6 +11066,7 @@ padding-top: 2em;
   float: left;
   padding:1.2em;
   padding-top: 4em;
+  /*padding-left: 3.5em;*/
 }
 
 @media (min-width: 576px) {
@@ -11088,12 +11092,14 @@ padding-top: 2em;
   .HalfColumn2{
   /*  max-width: 440px;/*720px;*/
   width:50%;
+  
   }
 }
 @media (min-width: 1600px) {
   .HalfColumn2{
   /*  max-width: 440px;/*720px;*/
   width:50%;
+
   }
 }
 
