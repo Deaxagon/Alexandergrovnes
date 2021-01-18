@@ -64,7 +64,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: "Roboto Slab","Montserrat" -apple-system, BlinkMacSystemFont;
+  font-family:"Montserrat", "Roboto Slab", -apple-system, BlinkMacSystemFont;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
@@ -597,11 +597,146 @@ pre code {
 
 .container {
   width: 100%;
-  padding-right: 0.75rem;
-  padding-left: 0.75rem;
+
   margin-right: auto;
   margin-left: auto;
 }
+
+.container1{
+  margin-left: 5em;
+  margin-right: 5em;
+}
+
+
+@media (min-width: 576px) {
+  .container1 {
+   /* max-width: 252px;/*540px; */
+   margin-left: 0em;
+   margin-right: 0em;
+  }
+}
+@media (min-width: 768px) {
+  .container1 {
+  /*  max-width: 440px;/*720px;*/
+  margin-left: 2em;
+   margin-right: 0em;
+  }
+}
+@media (min-width: 992px) {
+  .container1 {
+   /* max-width: 450px; /* 960px; */
+   margin-left: 5em;
+   margin-right: 5em;
+  }
+}
+@media (min-width: 1200px) {
+  .container1 {
+   /* max-width: 600px/*1140px; */
+   max-width:1200px;
+   margin-left: 7em;
+   margin-right: 5em;
+  }
+}
+
+@media (min-width: 1600px) {
+  .container1 {
+   /* max-width: 600px/*1140px; */
+   max-width:1200px;
+   margin-left: auto;
+   margin-right: auto;
+  }
+}
+
+
+.HalfColumn{
+  width: 50%;
+  float: left;
+  padding-top: 4em; 
+  color: whitesmoke;
+ /* padding-left: 4em;*/
+}
+
+
+@media (min-width: 576px) {
+  .HalfColumn{
+   /* max-width: 252px;/*540px; */
+  width:100%;
+  
+  }
+}
+@media (min-width: 768px) {
+  .HalfColumn{
+  /*  max-width: 440px;/*720px;*/
+  width:100%;
+  }
+}
+@media (min-width: 992px) {
+  .HalfColumn{
+   /* max-width: 450px; /* 960px; */
+   width: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .HalfColumn {
+   /* max-width: 600px/*1140px; */
+   width:50%;
+
+  }
+}
+
+@media (min-width: 1600px) {
+  .HalfColumn {
+   /* max-width: 600px/*1140px; */
+   width: 50%;
+  
+  }
+}
+
+
+.HalfColumn2{
+  width: 50%;
+  float: left;
+  padding:1.2em;
+  padding-top: 4em;
+  color: whitesmoke;
+  /*padding-left: 3.5em;*/
+}
+
+@media (min-width: 576px) {
+  .HalfColumn2{
+  /*  max-width: 440px;/*720px;*/
+  width:100%;
+  
+  }
+}
+@media (min-width: 768px) {
+  .HalfColumn2{
+  /*  max-width: 440px;/*720px;*/
+  width:100%;
+  }
+}
+@media (min-width: 992p) {
+  .HalfColumn2{
+  /*  max-width: 440px;/*720px;*/
+  width:100%;
+  }
+}
+@media (min-width: 1200px) {
+  .HalfColumn2{
+  /*  max-width: 440px;/*720px;*/
+  width:50%;
+  
+  }
+}
+@media (min-width: 1600px) {
+  .HalfColumn2{
+  /*  max-width: 440px;/*720px;*/
+  width:50%;
+
+  }
+}
+
 
 .addHeight{
 height:570px;
@@ -657,6 +792,14 @@ height:570px;
   }
 }
 .row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -0.75rem;
+  margin-left: -0.75rem;
+  justify-content: space-evenly;
+}
+
+.row1 {
   display: flex;
   flex-wrap: wrap;
   margin-right: -0.75rem;
@@ -6220,7 +6363,7 @@ button.bg-danger:focus {
 }
 
 .bg {
-  background-color: black;/*rgb(252, 160, 40);/*#141619 ; */
+  background-color: #141517;/*rgb(252, 160, 40);/*#141619 ; */
 }
 
 a.bg-light:hover, a.bg-light:focus,
@@ -7831,7 +7974,7 @@ button.bg-dark:focus {
 .pt-5,
 .py-5 {
   padding-top: 3rem !important;
-  background-color: black;
+  background-color: #141517;
 }
 
 .pr-5,
