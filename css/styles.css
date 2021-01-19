@@ -7974,7 +7974,7 @@ button.bg-dark:focus {
 .pt-5,
 .py-5 {
   padding-top: 3rem !important;
-  background-color: #141517;
+  background-color: black; /*#141517;*/
 }
 
 .pr-5,
