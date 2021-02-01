@@ -70,7 +70,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: black; /*#141619; */
+  background-color:#141619;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -794,8 +794,7 @@ height:570px;
 .row {
   display: flex;
   flex-wrap: wrap;
-  margin-right: -0.75rem;
-  margin-left: -0.75rem;
+  
   justify-content: space-evenly;
 }
 
@@ -6363,7 +6362,7 @@ button.bg-danger:focus {
 }
 
 .bg {
-  background-color: #141517;/*rgb(252, 160, 40);/*#141619 ; */
+  background-color: black; /*#141517;/*rgb(252, 160, 40);/*#141619 ; */
 }
 
 a.bg-light:hover, a.bg-light:focus,
@@ -10382,7 +10381,7 @@ header.masthead .masthead-heading {
   header.masthead {
     padding-top: 8rem;
     padding-bottom: 5rem;
-    height:42rem; /*55 before*/
+    height:52rem; /*42 before*/
   }
   header.masthead .masthead-subheading {
     font-size: 2.25rem;
