@@ -10957,8 +10957,10 @@ animation-delay: var(--delay);  */
 background: rgb(252,160,40);
 background: linear-gradient(129deg, rgba(252,160,40,1) 35%, rgba(69,131,252,1) 100%);
 background-size: 100%;
--webkit-text-background-clip: text;
--webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
 
   font-family: "Montserrat", Roboto ;
   font-size: 3rem;
