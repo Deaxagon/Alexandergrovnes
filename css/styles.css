@@ -10953,8 +10953,9 @@ animation-delay: var(--delay);  */
 /* ******************** */
 .specialSpan{
  /* color: rgb(252, 160, 40);*/
-/* background: rgb(252,160,40);*/
-background: linear-gradient(90deg, rgba(252,160,40,1) 4%, rgba(69,109,252,1) 100%);
+
+background: rgb(252,160,40);
+background: linear-gradient(113deg, rgba(252,160,40,1) 15%, rgba(174,148,130,1) 54%, rgba(69,131,252,1) 100%);
 background-size: 100%;
 background-clip: text;
 -webkit-text-fill-color: transparent;
