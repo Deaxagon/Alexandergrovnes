@@ -10395,7 +10395,7 @@ header.masthead .masthead-heading {
       header.masthead {
         padding-top: 8rem;
         padding-bottom: 5rem;
-        height:52rem; /*42 before*/
+        height:36rem; /*42 before*/
       }
     }
       @media (min-width: 1600px) {
