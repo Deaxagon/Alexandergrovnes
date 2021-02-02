@@ -10949,8 +10949,10 @@ animation-delay: var(--delay);  */
 /* ******************** */
 .specialSpan{
  /* color: rgb(252, 160, 40);*/
- background: rgb(252,160,40);
+/* background: rgb(252,160,40);*/
 background: linear-gradient(90deg, rgba(252,160,40,1) 4%, rgba(69,109,252,1) 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
   font-family: "Montserrat", Roboto ;
   font-size: 3rem;
   font-variation-settings: 'wght' 700, 'wdth' 700;
