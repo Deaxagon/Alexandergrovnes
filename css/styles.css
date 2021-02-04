@@ -10402,7 +10402,7 @@ header.masthead .masthead-heading {
         header.masthead {
           padding-top: 8rem;
           padding-bottom: 5rem;
-          height:55rem; /*42 before*/
+          height:52rem; /*42 before*/
         }
       }
   header.masthead .masthead-subheading {
