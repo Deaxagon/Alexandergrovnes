@@ -10155,7 +10155,7 @@ p {
 .paragraph1{
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 0.5rem;
+  
   max-width: 100%;
   width: 100%;
   text-align: left;
@@ -10166,7 +10166,7 @@ p {
 .paragraph2{
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 0.5rem;
+  
   
   max-width: 100%;
   width: 100%;
@@ -10178,7 +10178,7 @@ p {
 .paragraph3{
   margin-left: auto;
   margin-right: auto;
-  padding-bottom: 0.5rem;
+ 
   
   max-width: 100%;
   width: 100%;
