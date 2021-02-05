@@ -10381,21 +10381,21 @@ header.masthead .masthead-heading {
   header.masthead {
     padding-top: 8rem;
     padding-bottom: 5rem;
-    height:36rem; /*42 before*/
+    height:35rem; /*42 before*/
   }
 }
   @media (min-width: 992px) {
     header.masthead {
       padding-top: 8rem;
       padding-bottom: 5rem;
-      height:36rem; /*42 before*/
+      height:35rem; /*42 before*/
     }
   }
     @media (min-width: 1200px) {
       header.masthead {
         padding-top: 8rem;
         padding-bottom: 5rem;
-        height:36rem; /*42 before*/
+        height:35rem; /*42 before*/
       }
     }
       @media (min-width: 1600px) {
