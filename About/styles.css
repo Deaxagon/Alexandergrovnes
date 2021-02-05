@@ -1194,7 +1194,7 @@ height:570px;
 }
 @media (min-width: 1200px){
   .col-md-4 {
-    margin-top:1.3em;
+    margin-top:0em;/*1.3em; */
   }
  }
 
@@ -10150,6 +10150,7 @@ p {
   margin-right: auto;
   word-break: break-word;
   clear: both;
+  text-align: justify;
 }
 .paragraph1{
   margin-left: auto;
@@ -10160,6 +10161,7 @@ p {
   text-align: left;
   clear: both;
   word-break: break-word;
+  text-align: justify;
 }
 .paragraph2{
   margin-left: auto;
@@ -10171,6 +10173,7 @@ p {
   text-align: left;
   clear: both;
   word-break: break-word;
+  text-align: justify;
 }
 .paragraph3{
   margin-left: auto;
@@ -10182,6 +10185,7 @@ p {
   text-align: left;
   clear: both;
   word-break: break-word;
+  text-align: justify;
 }
 
 .page-section {
