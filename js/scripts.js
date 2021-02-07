@@ -79,7 +79,7 @@ document.getElementById("link1").onmouseover= function(){
   keep.classList.remove("fade-in");
   expressImg.classList.add("fade-in");
 
-  background.style.background="rgb(252, 160, 40)";
+  background.style.background="#e3a452";
   //keepText.style.color="#ffffff";
 }
 // typography game
@@ -97,7 +97,7 @@ document.getElementById("link2").onmouseover= function(){
   keep.classList.remove("fade-in");
   typo.classList.add("fade-in");
 
-  background.style.background="#EAEAEA";
+  background.style.background="#c2c2c2";
  // keepText.style.color="#ffffff";
 }
 // monster bins
@@ -115,7 +115,7 @@ document.getElementById("link3").onmouseover= function(){
   keep.classList.remove("fade-in");
   monst.classList.add("fade-in");
 
-  background.style.background="black";
+  background.style.background="#1c1c1c";
  // keepText.style.color="#ffffff";
 }
 //Innovation skåne
@@ -132,7 +132,7 @@ document.getElementById("link4").onmouseover= function(){
   typo.classList.remove("fade-in");
   monst.classList.remove("fade-in");
   keep.classList.add("fade-in");
-  background.style.background="#167480";
+  background.style.background="#156f7a";
   //background.style.background="#F8C331"; yellow color from UI redesigns 
  // keepText.style.color="#000000";
 
