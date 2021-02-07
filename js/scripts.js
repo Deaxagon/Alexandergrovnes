@@ -115,7 +115,7 @@ document.getElementById("link3").onmouseover= function(){
   keep.classList.remove("fade-in");
   monst.classList.add("fade-in");
 
-  background.style.background="#0f0f0f"; /*black*/ 
+  background.style.background="black"; /*black*/ 
  // keepText.style.color="#ffffff";
 }
 //Innovation skåne
