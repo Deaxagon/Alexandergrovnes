@@ -79,7 +79,7 @@ document.getElementById("link1").onmouseover= function(){
   keep.classList.remove("fade-in");
   expressImg.classList.add("fade-in");
 
-  background.style.background="#e3a452";
+  background.style.background="#de8c21"; /*#fca028 */
   //keepText.style.color="#ffffff";
 }
 // typography game
@@ -97,7 +97,7 @@ document.getElementById("link2").onmouseover= function(){
   keep.classList.remove("fade-in");
   typo.classList.add("fade-in");
 
-  background.style.background="#c2c2c2";
+  background.style.background="#e3e3e3"; /*#eaeaea*/ 
  // keepText.style.color="#ffffff";
 }
 // monster bins
@@ -115,7 +115,7 @@ document.getElementById("link3").onmouseover= function(){
   keep.classList.remove("fade-in");
   monst.classList.add("fade-in");
 
-  background.style.background="#1c1c1c";
+  background.style.background="#0f0f0f"; /*black*/ 
  // keepText.style.color="#ffffff";
 }
 //Innovation skåne
