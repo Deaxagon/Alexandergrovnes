@@ -97,7 +97,7 @@ document.getElementById("link2").onmouseover= function(){
   keep.classList.remove("fade-in");
   typo.classList.add("fade-in");
 
-  background.style.background="#dbdbdb"; /*#eaeaea*/ 
+  background.style.background="#162d59";/*"#1b366b"; bra blå/*"#dbdbdb" grå; /*#eaeaea för ljus*/ 
  // keepText.style.color="#ffffff";
 }
 // monster bins
