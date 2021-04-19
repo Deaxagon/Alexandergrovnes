@@ -72,7 +72,7 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #ffffff;
+  background-color:#ffffff;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -558,7 +558,7 @@ img{
 }
 
 .img-fluidAlt{
-  left:4.5rem;
+  padding:1rem;
 }
 
 
@@ -11113,7 +11113,7 @@ margin-right: 0rem;
 
 @media (min-width: 1600px) {
   .img-fluidAlt{
-  left: 5.5rem;
+  
 }
 }
 
